@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		909E3B3E2CF919D800F70D71 /* FunDrinksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E3B3D2CF919D800F70D71 /* FunDrinksApp.swift */; };
-		909E3B402CF919D800F70D71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E3B3F2CF919D800F70D71 /* ContentView.swift */; };
+		909E3B402CF919D800F70D71 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E3B3F2CF919D800F70D71 /* LaunchView.swift */; };
 		909E3B422CF919D900F70D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909E3B412CF919D900F70D71 /* Assets.xcassets */; };
 		909E3B452CF919D900F70D71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909E3B442CF919D900F70D71 /* Preview Assets.xcassets */; };
 		909E3B4F2CF919D900F70D71 /* FunDrinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E3B4E2CF919D900F70D71 /* FunDrinksTests.swift */; };
 		909E3B592CF919D900F70D71 /* FunDrinksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E3B582CF919D900F70D71 /* FunDrinksUITests.swift */; };
 		909E3B5B2CF919D900F70D71 /* FunDrinksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E3B5A2CF919D900F70D71 /* FunDrinksUITestsLaunchTests.swift */; };
+		909E3B692CF92BAB00F70D71 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E3B682CF92BAB00F70D71 /* ColorConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		909E3B3A2CF919D800F70D71 /* FunDrinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunDrinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		909E3B3D2CF919D800F70D71 /* FunDrinksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunDrinksApp.swift; sourceTree = "<group>"; };
-		909E3B3F2CF919D800F70D71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		909E3B3F2CF919D800F70D71 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		909E3B412CF919D900F70D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		909E3B442CF919D900F70D71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		909E3B4A2CF919D900F70D71 /* FunDrinksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunDrinksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		909E3B542CF919D900F70D71 /* FunDrinksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunDrinksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		909E3B582CF919D900F70D71 /* FunDrinksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunDrinksUITests.swift; sourceTree = "<group>"; };
 		909E3B5A2CF919D900F70D71 /* FunDrinksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunDrinksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		909E3B682CF92BAB00F70D71 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,9 @@
 		909E3B3C2CF919D800F70D71 /* FunDrinks */ = {
 			isa = PBXGroup;
 			children = (
+				909E3B672CF92B9900F70D71 /* CommonFiles */,
 				909E3B3D2CF919D800F70D71 /* FunDrinksApp.swift */,
-				909E3B3F2CF919D800F70D71 /* ContentView.swift */,
+				909E3B3F2CF919D800F70D71 /* LaunchView.swift */,
 				909E3B412CF919D900F70D71 /* Assets.xcassets */,
 				909E3B432CF919D900F70D71 /* Preview Content */,
 			);
@@ -125,6 +128,14 @@
 				909E3B5A2CF919D900F70D71 /* FunDrinksUITestsLaunchTests.swift */,
 			);
 			path = FunDrinksUITests;
+			sourceTree = "<group>";
+		};
+		909E3B672CF92B9900F70D71 /* CommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				909E3B682CF92BAB00F70D71 /* ColorConstants.swift */,
+			);
+			path = CommonFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				909E3B402CF919D800F70D71 /* ContentView.swift in Sources */,
+				909E3B692CF92BAB00F70D71 /* ColorConstants.swift in Sources */,
+				909E3B402CF919D800F70D71 /* LaunchView.swift in Sources */,
 				909E3B3E2CF919D800F70D71 /* FunDrinksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -422,14 +434,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FunDrinks/Preview Content\"";
-				DEVELOPMENT_TEAM = 497T7HYRSY;
+				DEVELOPMENT_TEAM = 8244FLRS75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,9 +452,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fun.drinks.FunDrinks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,14 +469,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FunDrinks/Preview Content\"";
-				DEVELOPMENT_TEAM = 497T7HYRSY;
+				DEVELOPMENT_TEAM = 8244FLRS75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,9 +487,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fun.drinks.FunDrinks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
