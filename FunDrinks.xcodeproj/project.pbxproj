@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		909E3B3E2CF919D800F70D71 /* FunDrinksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E3B3D2CF919D800F70D71 /* FunDrinksApp.swift */; };
+		909E3B402CF919D800F70D71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E3B3F2CF919D800F70D71 /* ContentView.swift */; };
+		909E3B422CF919D900F70D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909E3B412CF919D900F70D71 /* Assets.xcassets */; };
+		909E3B452CF919D900F70D71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909E3B442CF919D900F70D71 /* Preview Assets.xcassets */; };
+		909E3B4F2CF919D900F70D71 /* FunDrinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E3B4E2CF919D900F70D71 /* FunDrinksTests.swift */; };
+		909E3B592CF919D900F70D71 /* FunDrinksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E3B582CF919D900F70D71 /* FunDrinksUITests.swift */; };
+		909E3B5B2CF919D900F70D71 /* FunDrinksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E3B5A2CF919D900F70D71 /* FunDrinksUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		909E3B4B2CF919D900F70D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 909E3B322CF919D800F70D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 909E3B392CF919D800F70D71;
+			remoteInfo = FunDrinks;
+		};
+		909E3B552CF919D900F70D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 909E3B322CF919D800F70D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 909E3B392CF919D800F70D71;
+			remoteInfo = FunDrinks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		909E3B3A2CF919D800F70D71 /* FunDrinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunDrinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		909E3B3D2CF919D800F70D71 /* FunDrinksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunDrinksApp.swift; sourceTree = "<group>"; };
+		909E3B3F2CF919D800F70D71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		909E3B412CF919D900F70D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		909E3B442CF919D900F70D71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		909E3B4A2CF919D900F70D71 /* FunDrinksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunDrinksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		909E3B4E2CF919D900F70D71 /* FunDrinksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunDrinksTests.swift; sourceTree = "<group>"; };
+		909E3B542CF919D900F70D71 /* FunDrinksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunDrinksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		909E3B582CF919D900F70D71 /* FunDrinksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunDrinksUITests.swift; sourceTree = "<group>"; };
+		909E3B5A2CF919D900F70D71 /* FunDrinksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunDrinksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		909E3B372CF919D800F70D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909E3B472CF919D900F70D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909E3B512CF919D900F70D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		909E3B312CF919D800F70D71 = {
+			isa = PBXGroup;
+			children = (
+				909E3B3C2CF919D800F70D71 /* FunDrinks */,
+				909E3B4D2CF919D900F70D71 /* FunDrinksTests */,
+				909E3B572CF919D900F70D71 /* FunDrinksUITests */,
+				909E3B3B2CF919D800F70D71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		909E3B3B2CF919D800F70D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				909E3B3A2CF919D800F70D71 /* FunDrinks.app */,
+				909E3B4A2CF919D900F70D71 /* FunDrinksTests.xctest */,
+				909E3B542CF919D900F70D71 /* FunDrinksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		909E3B3C2CF919D800F70D71 /* FunDrinks */ = {
+			isa = PBXGroup;
+			children = (
+				909E3B3D2CF919D800F70D71 /* FunDrinksApp.swift */,
+				909E3B3F2CF919D800F70D71 /* ContentView.swift */,
+				909E3B412CF919D900F70D71 /* Assets.xcassets */,
+				909E3B432CF919D900F70D71 /* Preview Content */,
+			);
+			path = FunDrinks;
+			sourceTree = "<group>";
+		};
+		909E3B432CF919D900F70D71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				909E3B442CF919D900F70D71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		909E3B4D2CF919D900F70D71 /* FunDrinksTests */ = {
+			isa = PBXGroup;
+			children = (
+				909E3B4E2CF919D900F70D71 /* FunDrinksTests.swift */,
+			);
+			path = FunDrinksTests;
+			sourceTree = "<group>";
+		};
+		909E3B572CF919D900F70D71 /* FunDrinksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				909E3B582CF919D900F70D71 /* FunDrinksUITests.swift */,
+				909E3B5A2CF919D900F70D71 /* FunDrinksUITestsLaunchTests.swift */,
+			);
+			path = FunDrinksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		909E3B392CF919D800F70D71 /* FunDrinks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909E3B5E2CF919D900F70D71 /* Build configuration list for PBXNativeTarget "FunDrinks" */;
+			buildPhases = (
+				909E3B362CF919D800F70D71 /* Sources */,
+				909E3B372CF919D800F70D71 /* Frameworks */,
+				909E3B382CF919D800F70D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunDrinks;
+			productName = FunDrinks;
+			productReference = 909E3B3A2CF919D800F70D71 /* FunDrinks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		909E3B492CF919D900F70D71 /* FunDrinksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909E3B612CF919D900F70D71 /* Build configuration list for PBXNativeTarget "FunDrinksTests" */;
+			buildPhases = (
+				909E3B462CF919D900F70D71 /* Sources */,
+				909E3B472CF919D900F70D71 /* Frameworks */,
+				909E3B482CF919D900F70D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				909E3B4C2CF919D900F70D71 /* PBXTargetDependency */,
+			);
+			name = FunDrinksTests;
+			productName = FunDrinksTests;
+			productReference = 909E3B4A2CF919D900F70D71 /* FunDrinksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		909E3B532CF919D900F70D71 /* FunDrinksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909E3B642CF919D900F70D71 /* Build configuration list for PBXNativeTarget "FunDrinksUITests" */;
+			buildPhases = (
+				909E3B502CF919D900F70D71 /* Sources */,
+				909E3B512CF919D900F70D71 /* Frameworks */,
+				909E3B522CF919D900F70D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				909E3B562CF919D900F70D71 /* PBXTargetDependency */,
+			);
+			name = FunDrinksUITests;
+			productName = FunDrinksUITests;
+			productReference = 909E3B542CF919D900F70D71 /* FunDrinksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		909E3B322CF919D800F70D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					909E3B392CF919D800F70D71 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					909E3B492CF919D900F70D71 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 909E3B392CF919D800F70D71;
+					};
+					909E3B532CF919D900F70D71 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 909E3B392CF919D800F70D71;
+					};
+				};
+			};
+			buildConfigurationList = 909E3B352CF919D800F70D71 /* Build configuration list for PBXProject "FunDrinks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 909E3B312CF919D800F70D71;
+			productRefGroup = 909E3B3B2CF919D800F70D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				909E3B392CF919D800F70D71 /* FunDrinks */,
+				909E3B492CF919D900F70D71 /* FunDrinksTests */,
+				909E3B532CF919D900F70D71 /* FunDrinksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		909E3B382CF919D800F70D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909E3B452CF919D900F70D71 /* Preview Assets.xcassets in Resources */,
+				909E3B422CF919D900F70D71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909E3B482CF919D900F70D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909E3B522CF919D900F70D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		909E3B362CF919D800F70D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909E3B402CF919D800F70D71 /* ContentView.swift in Sources */,
+				909E3B3E2CF919D800F70D71 /* FunDrinksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909E3B462CF919D900F70D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909E3B4F2CF919D900F70D71 /* FunDrinksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909E3B502CF919D900F70D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909E3B592CF919D900F70D71 /* FunDrinksUITests.swift in Sources */,
+				909E3B5B2CF919D900F70D71 /* FunDrinksUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		909E3B4C2CF919D900F70D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 909E3B392CF919D800F70D71 /* FunDrinks */;
+			targetProxy = 909E3B4B2CF919D900F70D71 /* PBXContainerItemProxy */;
+		};
+		909E3B562CF919D900F70D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 909E3B392CF919D800F70D71 /* FunDrinks */;
+			targetProxy = 909E3B552CF919D900F70D71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		909E3B5C2CF919D900F70D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		909E3B5D2CF919D900F70D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		909E3B5F2CF919D900F70D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunDrinks/Preview Content\"";
+				DEVELOPMENT_TEAM = 497T7HYRSY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fun.drinks.FunDrinks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		909E3B602CF919D900F70D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunDrinks/Preview Content\"";
+				DEVELOPMENT_TEAM = 497T7HYRSY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fun.drinks.FunDrinks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		909E3B622CF919D900F70D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497T7HYRSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fun.drinks.FunDrinksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunDrinks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FunDrinks";
+			};
+			name = Debug;
+		};
+		909E3B632CF919D900F70D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497T7HYRSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fun.drinks.FunDrinksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunDrinks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FunDrinks";
+			};
+			name = Release;
+		};
+		909E3B652CF919D900F70D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497T7HYRSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fun.drinks.FunDrinksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FunDrinks;
+			};
+			name = Debug;
+		};
+		909E3B662CF919D900F70D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497T7HYRSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fun.drinks.FunDrinksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FunDrinks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		909E3B352CF919D800F70D71 /* Build configuration list for PBXProject "FunDrinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909E3B5C2CF919D900F70D71 /* Debug */,
+				909E3B5D2CF919D900F70D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909E3B5E2CF919D900F70D71 /* Build configuration list for PBXNativeTarget "FunDrinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909E3B5F2CF919D900F70D71 /* Debug */,
+				909E3B602CF919D900F70D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909E3B612CF919D900F70D71 /* Build configuration list for PBXNativeTarget "FunDrinksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909E3B622CF919D900F70D71 /* Debug */,
+				909E3B632CF919D900F70D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909E3B642CF919D900F70D71 /* Build configuration list for PBXNativeTarget "FunDrinksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909E3B652CF919D900F70D71 /* Debug */,
+				909E3B662CF919D900F70D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 909E3B322CF919D800F70D71 /* Project object */;
+}
